@@ -1,0 +1,83 @@
+@media screen and (max-width:375px)
+{
+    
+    .box
+    {
+        top:25px;
+        margin-right: 4px;
+        height: 38rem;
+        width: 20rem;
+    }
+
+    #logoImageAptech
+    {
+        top:6px;
+        right: 72px;
+        height: 108px;
+        width: 232px;
+    }
+    #loginKiHeading
+    {
+        font-size: x-large;
+        top:122px;
+        right: 10px;
+        left: 10px;
+    }
+    #greyline
+    {
+        right:-72px;
+        top:53px;
+        position: absolute;
+    }
+    .formInput
+    {
+        top:14rem;
+        right: 40px;
+    }
+     #emailinput
+    {
+        width: 400px;
+    }
+    #youremailline
+    {
+      right: 148px;
+    }
+    .formpasswordinput
+    {
+        top:20rem;
+        right: 40px;
+    }
+
+    #loginBtn
+    {
+        left: 110px;
+        top:28rem;
+    }
+    #fPassword
+    {
+        display: none;
+        top:-35px;
+        right: 10px;
+        position: absolute;
+    }
+   
+    #stuportalhead
+    {
+        display: none;
+    }
+    #stuportalheadResponsive
+    {
+        display: block;
+        top:70px;
+        font-size: x-large;
+        position: absolute;
+        right: 86px;
+    }
+    #fPasswordResponsive
+    {
+        display: block;
+        position: absolute;   
+        top:32rem;
+        right: 15px;
+    }
+}

@@ -1,0 +1,99 @@
+*
+{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.navbarOffer
+{
+    justify-content: center ;
+    text-align: center;
+    align-items: center;
+    height: 2.5rem;
+    width: 100%;
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+#bannerimg
+{
+    height: 500px;
+    width: 100%;
+}
+#shopnowbtn
+{
+    position: absolute;
+    top:32rem;
+    left: 50px;
+}
+#bannerheading
+{
+        left: 50px;
+        position:absolute;
+        top: 30rem;
+        font-family: "Roboto", sans-serif;
+        font-weight: 900;
+        font-style: normal;
+        color:white;
+
+}
+.fetaured
+{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 10px;
+}
+.mainPageCard
+{
+    display: flex;
+    justify-content: space-around;
+}
+.card1
+{
+    border:2px solid black;
+    height: 20rem;
+    width: 20rem;
+}
+.card2
+{
+    border:2px solid black;
+    height: 20rem;
+    width: 20rem;
+}.card3
+{
+    border:2px solid black;
+    height: 20rem;
+    width: 20rem;
+}
+#card1Img
+{
+    height: 100%;
+    width: 100%;
+}
+#card2Img
+{
+    height: 100%;
+    width: 100%;
+}
+#card3Img
+{
+    height: 100%;
+    width: 100%;
+}
+#cutprice
+{
+    color: gray;
+}
+
+#newprice
+{
+    color: gold;
+}
+#itemName
+{
+    font-family: "Sofadi One", system-ui;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
