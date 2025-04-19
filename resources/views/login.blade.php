@@ -37,7 +37,7 @@
                 @csrf
 
             <div class="formInput">
-                <input id="emailinput" type="text" name="user_mail" id="">
+                <input id="emailinput" autocomplete="off" type="text" name="user_mail" id="">
                 <p  id="youremailline">Your Email </p>
             </div>
             <div class="formpasswordinput">

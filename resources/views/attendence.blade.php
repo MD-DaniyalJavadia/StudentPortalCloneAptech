@@ -288,6 +288,8 @@
             Extra Point
         </div>  
     </div>
+         <!-- <p>$attendence = Attendence::orderBy('AttendanceMonth', 'desc')->get();</p> -->
+
         @foreach($attendence as $atten)
         
     <div class="col-lg-1">

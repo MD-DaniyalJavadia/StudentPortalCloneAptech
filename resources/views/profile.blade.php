@@ -223,7 +223,7 @@
         </p>
         <p id="stuEmail">Email
         </p>
-        <p id="stumail">daniyal2307a@aptechgdn.net
+        <p id="stumail">daniyal@gmail.com
         </p>
         <p id="stuBatch">Batch
         </p>
@@ -231,7 +231,7 @@
         </p>
         <p id="stuPhno">Phone No
         </p>
-        <p id="stumobilenumber">923323782768
+        <p id="stumobilenumber">92 123456789
         </p>
         <p id="stuCourseEnrollment">Course Enrolled
         </p>

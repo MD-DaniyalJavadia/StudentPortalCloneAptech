@@ -18,3 +18,4 @@ Route::get("forget-password",[pageController::class,"forgetPassword"]);
 Route::get("attendence-page",[pageController::class,"attendencePage"])->name('attendence.page');
 Route::get("Annoument",[pageController::class,"AnnoumentPage"])->name("annoument.page");
 Route::get("Forget",[pageController::class,"ForgrtPage"])->name("forget.page");
+Route::get("feedback-form",[pageController::class,"feedbackform"]);

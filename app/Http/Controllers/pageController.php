@@ -6,6 +6,8 @@ use Illuminate\Http\Request;
 use App\Models\attendence;
 use App\Models\semesterdetails;
 use App\Models\semeterNo;
+use Illuminate\Support\Facades\Auth;
+
 use App\Models\examdetails;
 class pageController extends Controller
 {
@@ -58,7 +60,7 @@ class pageController extends Controller
         return view('attendence',compact('attendence'));
 
     }
-    
+
     public function examfetch()
     {
         $examDetail = examdetails::all();
@@ -80,6 +82,10 @@ class pageController extends Controller
     public function ForgrtPage()
     {
         return view("forget");
+    }
+    public function feedbackform()
+    {
+        return view('feedback');
     }
 
 
