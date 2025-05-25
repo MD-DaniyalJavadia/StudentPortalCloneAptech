@@ -12,186 +12,171 @@
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Sofadi+One&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
     
 </head>
-<style>
-      *
-    {
-        margin:0;
-        padding: 0;
-        box-sizing: border-box;
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
     }
-    body
-    {
-        background-color: #f0f3f6;
-    }
-
-   
-    .navbaritem
-    {
-        background-color:white;
-        justify-content: center;
-        display: flex;
-        height: 100px;
-        align-items: center;
-    }
-    .navbaritem ul 
-    {
-        left:100px;
-        position: relative;
-
-    }
-    .navbaritem ul li
-     {
-        display: inline-block;
-        margin:10px;
-    }
-    .navbaritem ul li a
-    {
-        list-style: none;
-        text-decoration: none;
-        color:black;
-    }
-    
     body {
-            font-family: sans-serif;
-            margin: 0;
-        }
-        #aptechgdnlogo
-        {
-            height: 100px;
-            width: 300px;
-            position: absolute;
-        }
-        .attendancetableHeading
-        {
-            justify-content: center;
-            align-items: center;
-            display: flex;            
-        }
-        
-       
-        .StudentDetail
-        {
-            display: flex;
-            margin-top: 100px;
-            margin-left: 125px;
-        }
-         
-         .StudentPersonlDetail
-         {
-            display: flex;
-            margin-left: 120vh;
-        }
-        #stuName
-        {
-            color: #20247b;
-            font-weight: 700;
-            font-family: "Source Sans 3", serif;
-            font-size:45px;
-            font-style: normal;
-            position: absolute;
-            top:30vh;
-            left:40rem;
-        }
-        #stuEmail
-        {
-            color: #20247b;
-            font-weight: 700;
-            font-family: "Source Sans 3", serif;
-            font-size:25px;
-            font-style: normal;
-            position: absolute;
-            top:45vh;
-            left:40rem;
-        }
-        #stumail
-        {
-            color: #6f8ba4;
-            font-weight: 700;
-            font-family: "Source Sans 3", serif;
-            font-size:15px;
-            font-style: normal;
-            position: absolute;
-            top:50vh;
-            left:40rem;
-        }
-        #stuBatch
-        {
-            color: #20247b;
-            font-weight: 700;
-            font-family: "Source Sans 3", serif;
-            font-size:25px;
-            font-style: normal;
-            position: absolute;
-            top:45vh;
-            left:60rem;
-        }
-        #stuBatchCode
-        {
-            color: #6f8ba4;
-            font-weight: 700;
-            font-family: "Source Sans 3", serif;
-            font-size:15px;
-            font-style: normal;
-            position: absolute;
-            top:50vh;
-            left:60rem;
-        }
-        #stuPhno
-        {
-            color: #20247b;
-            font-weight: 700;
-            font-family: "Source Sans 3", serif;
-            font-size:25px;
-            font-style: normal;
-            position: absolute;
-            top:55vh;
-            left:40rem;
-        }
-        #stuCourseEnrollment
-        {
-            color: #20247b;
-            font-weight: 700;
-            font-family: "Source Sans 3", serif;
-            font-size:25px;
-            font-style: normal;
-            position: absolute;
-            top:55vh;
-            left:60rem;
-        }
-        #stumobilenumber
-        {
-            color: #6f8ba4;
-            font-weight: 700;
-            font-family: "Source Sans 3", serif;
-            font-size:15px;
-            font-style: normal;
-            position: absolute;
-            top:60vh;
-            left:40rem;
-        }
-        #stuEnrollCode
-        {
-            color: #6f8ba4;
-            font-weight: 700;
-            font-family: "Source Sans 3", serif;
-            font-size:15px;
-            font-style: normal;
-            position: absolute;
-            top:60vh;
-            left:60rem;
-        }
-        .userNamebutton
-     {
-        color:blue;
-        background-color:#ccc;
-        height:40px;
-        left:95em;
-        bottom:72px;
-        border-radius: 10px;
-        position: relative;
-        width: 180px;
-     }
-</style>
+      background-color: #f0f3f6;
+    }
+
+    body {
+      font-family: sans-serif;
+      margin: 0;
+    }
+
+    .attendancetableHeading {
+      justify-content: center;
+      align-items: center;
+      display: flex;
+    }
+
+    .StudentDetail {
+      display: flex;
+      margin-top: 100px;
+      margin-left: 125px;
+    }
+
+    .StudentPersonlDetail {
+      display: flex;
+      margin-left: 120vh;
+    }
+    #stuName {
+      color: #20247b;
+      font-weight: 700;
+      font-family: "Source Sans 3", serif;
+      font-size: 45px;
+      font-style: normal;
+      position: absolute;
+      top: 30vh;
+      left: 40rem;
+    }
+    #stuEmail {
+      color: #20247b;
+      font-weight: 700;
+      font-family: "Source Sans 3", serif;
+      font-size: 25px;
+      font-style: normal;
+      position: absolute;
+      top: 45vh;
+      left: 40rem;
+    }
+    #stumail {
+      color: #6f8ba4;
+      font-weight: 700;
+      font-family: "Source Sans 3", serif;
+      font-size: 15px;
+      font-style: normal;
+      position: absolute;
+      top: 50vh;
+      left: 40rem;
+    }
+    #stuBatch {
+      color: #20247b;
+      font-weight: 700;
+      font-family: "Source Sans 3", serif;
+      font-size: 25px;
+      font-style: normal;
+      position: absolute;
+      top: 45vh;
+      left: 60rem;
+    }
+    #stuBatchCode {
+      color: #6f8ba4;
+      font-weight: 700;
+      font-family: "Source Sans 3", serif;
+      font-size: 15px;
+      font-style: normal;
+      position: absolute;
+      top: 50vh;
+      left: 60rem;
+    }
+    #stuPhno {
+      color: #20247b;
+      font-weight: 700;
+      font-family: "Source Sans 3", serif;
+      font-size: 25px;
+      font-style: normal;
+      position: absolute;
+      top: 55vh;
+      left: 40rem;
+    }
+    #stuCourseEnrollment {
+      color: #20247b;
+      font-weight: 700;
+      font-family: "Source Sans 3", serif;
+      font-size: 25px;
+      font-style: normal;
+      position: absolute;
+      top: 55vh;
+      left: 60rem;
+    }
+    #stumobilenumber {
+      color: #6f8ba4;
+      font-weight: 700;
+      font-family: "Source Sans 3", serif;
+      font-size: 15px;
+      font-style: normal;
+      position: absolute;
+      top: 60vh;
+      left: 40rem;
+    }
+    #stuEnrollCode {
+      color: #6f8ba4;
+      font-weight: 700;
+      font-family: "Source Sans 3", serif;
+      font-size: 15px;
+      font-style: normal;
+      position: absolute;
+      top: 60vh;
+      left: 60rem;
+    }
+    body {
+      font-family: "Source Sans 3", serif;
+    }
+
+    #aptechgdnlogo {
+      margin-right: 20px;
+      height: 100px;
+      width: 300px;
+    }
+    .navbar {
+      display: flex;
+      align-items: center;
+      background-color: white;
+      height: 100px;
+      padding: 0 20px;
+    }
+
+    .navbaritem {
+      display: flex;
+      align-items: center;
+      margin-left: 40px;
+    }
+
+    .navbaritem ul {
+      display: flex;
+      gap: 20px;
+      list-style: none;
+    }
+
+    .navbaritem ul li a {
+      text-decoration: none;
+      color: black;
+      font-weight: 500;
+    }
+
+    .user-profile {
+      margin-left: auto;
+      background: #e6f0ff;
+      padding: 10px;
+      font-size: 14px;
+      text-align: center;
+      border-radius: 5px;
+    }
+  </style>
 
 <body>
 <nav>
@@ -210,7 +195,9 @@
                     <li><a href="">Feedback</a></li>
                 </ul>
             </div>
-            <button class='userNamebutton'>Mr .Muhmmad Daniyal</button>
+            <div class="user-profile">
+          Mr.<br /><strong>MUHAMMAD DANIYAL</strong> <span>▼</span>
+        </div>
         </div>
     </nav>
     <div class="StudentDetail">

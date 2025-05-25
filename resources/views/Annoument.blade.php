@@ -12,186 +12,156 @@
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Sofadi+One&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
     
 </head>
-<style>
-    *
-    {
-        margin:0;
-        padding: 0;
-        box-sizing: border-box;
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
     }
-    body
-    {
-        background-color: #f0f3f6;
-    }
-
-    .navbaritem
-    {
-        background-color:white;
-        justify-content: center;
-        display: flex;
-        height: 100px;
-        align-items: center;
-    }
-    .navbaritem ul 
-    {
-        left:100px;
-        position: relative;
-
-    }
-    .navbaritem ul li
-     {
-        display: inline-block;
-        margin:10px;
-    }
-    .navbaritem ul li a
-    {
-        list-style: none;
-        text-decoration: none;
-        color:black;
-    }
-        
     body {
-            font-family: sans-serif;
-            margin: 0;
-        }
+      background-color: #f0f3f6;
+    }
+    .navbar {
+      display: flex;
+      align-items: center;
+      background-color: white;
+      height: 100px;
+      padding: 0 20px;
+    }
 
-        #aptechgdnlogo
-        {
-            height: 100px;
-            width: 300px;
-            position: absolute;
-        }
-        .conatiner
-        {
-            display: flex;
-            justify-content: center;
-        }
-        #AnnouncementHeading
+    .navbaritem {
+      background-color: white;
+      justify-content: center;
+      display: flex;
+      height: 100px;
+      align-items: center;
+    }
+    .navbaritem ul li {
+      display: inline-block;
+      margin: 10px;
+    }
+    .navbaritem ul li a {
+      list-style: none;
+      text-decoration: none;
+      color: black;
+    }
 
-        {
-            font-family: "Source Sans 3", serif;
-        font-size:40px;
-        font-weight: 500;
-        font-style: normal;
+    body {
+      font-family: sans-serif;
+      margin: 0;
+    }
 
+    #aptechgdnlogo {
+      margin-right: 20px;
+      height: 100px;
+      width: 300px;
+    }
+    .conatiner {
+      display: flex;
+      justify-content: center;
+    }
+    #AnnouncementHeading {
+      font-family: "Source Sans 3", serif;
+      font-size: 40px;
+      font-weight: 500;
+      font-style: normal;
+    }
+    .Seminar {
+      height: 31px;
+      border-top: 0px solid #f1f6f8;
+      border-right: 1px solid #bacbe6;
+      border-left: 1px solid #bacbe6;
+      border-bottom: 0px solid #bacbe6;
+      width: 124.562px;
+      /* border: 1px solid black; */
+      background-color: lightblue;
+    }
+    .title {
+      height: 31px;
+      border-top: 0px solid #f1f6f8;
+      border-right: 1px solid #bacbe6;
+      border-left: 1px solid #bacbe6;
+      border-bottom: 0px solid #bacbe6;
+      /* border: 1px solid black; */
+      width: 252.281px;
+      background-color: lightblue;
+    }
+    .text {
+      height: 31px;
+      border-top: 0px solid #f1f6f8;
+      border-right: 1px solid #bacbe6;
+      border-left: 1px solid #bacbe6;
+      border-bottom: 0px solid #bacbe6;
+      width: 738.156px;
+      background-color: lightblue;
+    }
+    .SeminarImage {
+      height: 53px;
+      border-top: 0px solid #f1f6f8;
+      border-right: 1px solid #bacbe6;
+      border-left: 1px solid #bacbe6;
+      border-bottom: 0px solid #bacbe6;
+      width: 124.562px;
+      /* border: 1px solid black; */
+      background-color: #cfe2ff;
+    }
+    .titleContent {
+      height: 53px;
+      border-top: 0px solid #f1f6f8;
+      border-right: 1px solid #bacbe6;
+      border-left: 1px solid #bacbe6;
+      border-bottom: 0px solid #bacbe6;
+      /* border: 1px solid black; */
+      width: 252.281px;
+      background-color: #cfe2ff;
+    }
+    .textContent {
+      height: 53px;
+      border-top: 0px solid #f1f6f8;
+      border-right: 1px solid #bacbe6;
+      border-left: 1px solid #bacbe6;
+      border-bottom: 0px solid #bacbe6;
+      width: 738.156px;
+      background-color: #cfe2ff;
+    }
+    .announmentdetailbox {
+      display: flex;
+      justify-content: center;
+    }
+    #boxcontent {
+      display: flex;
+      justify-content: center;
+      font-family: "Source Sans 3", serif;
+      font-size: 14px;
+      font-weight: 700;
+      padding-top: 8px;
+    }
+    #maincontent {
+      display: flex;
+      justify-content: center;
+      font-family: "Source Sans 3", serif;
+      font-size: 16px;
+      padding-top: 10px;
+    }
+    #maincontentimg {
+      display: flex;
+      justify-content: center;
+      padding-top: 8px;
+      border-radius: 50%;
+    }
+    body {
+      font-family: "Source Sans 3", serif;
+    }
 
-        }
-        .Seminar
-
-        {
-            height: 31px;
-            border-top:0px solid #f1f6f8 ;
-            border-right :1px solid #bacbe6 ;
-            border-left :1px solid #bacbe6 ;
-            border-bottom :0px solid #bacbe6 ;
-            width: 124.562px;
-            /* border: 1px solid black; */
-            background-color:lightblue;
-        }
-        .title
-
-        {
-            height: 31px;
-            border-top:0px solid #f1f6f8 ;
-            border-right :1px solid #bacbe6 ;
-            border-left :1px solid #bacbe6 ;
-            border-bottom :0px solid #bacbe6 ;
-            /* border: 1px solid black; */
-            width: 252.281px;
-            background-color:lightblue;
-        }
-        .text
-
-        {
-            height: 31px;
-            border-top:0px solid #f1f6f8 ;
-            border-right :1px solid #bacbe6 ;
-            border-left :1px solid #bacbe6 ;
-            border-bottom :0px solid #bacbe6 ;
-            width: 738.156px;
-            background-color:lightblue;
-        }
-        .SeminarImage
-
-        {
-            height: 53px;
-            border-top:0px solid #f1f6f8 ;
-            border-right :1px solid #bacbe6 ;
-            border-left :1px solid #bacbe6 ;
-            border-bottom :0px solid #bacbe6 ;
-            width: 124.562px;
-            /* border: 1px solid black; */
-            background-color:#cfe2ff;
-        }
-        .titleContent
-
-        {
-            height: 53px;
-            border-top:0px solid #f1f6f8 ;
-            border-right :1px solid #bacbe6 ;
-            border-left :1px solid #bacbe6 ;
-            border-bottom :0px solid #bacbe6 ;
-            /* border: 1px solid black; */
-            width: 252.281px;
-            background-color:#cfe2ff;
-        }
-        .textContent
-
-        {
-            height: 53px;
-            border-top:0px solid #f1f6f8 ;
-            border-right :1px solid #bacbe6 ;
-            border-left :1px solid #bacbe6 ;
-            border-bottom :0px solid #bacbe6 ;
-            width: 738.156px;
-            background-color:#cfe2ff;
-        }
-        .announmentdetailbox
-        {
-            display: flex;
-            justify-content: center;
-        }
-        #boxcontent
-        {
-            display: flex;
-            justify-content: center;
-            font-family: "Source Sans 3", serif;
-            font-size:14px;
-            font-weight: 700;
-            padding-top: 8px;
-
-        }
-        #maincontent
-        {
-            display: flex;
-            justify-content: center;
-            font-family: "Source Sans 3", serif;
-            font-size:16px;
-            padding-top: 10px;
-        }
-        #maincontentimg
-        {
-            display: flex;
-            justify-content: center;
-            padding-top: 8px;
-            border-radius: 50%;
-        }
-        body{
-            font-family: "Source Sans 3", serif;
-
-        }
-        .userNamebutton
-     {
-        color:blue;
-        background-color:#ccc;
-        height:40px;
-        left:95em;
-        bottom:72px;
-        border-radius: 10px;
-        position: relative;
-        width: 180px;
-     }
-</style>
+    .user-profile {
+      margin-left: auto;
+      background: #e6f0ff;
+      padding: 10px;
+      font-size: 14px;
+      text-align: center;
+      border-radius: 5px;
+    }
+  </style>
 
 
 <body>
@@ -211,7 +181,9 @@
                     <li><a href="">Feedback</a></li>
                 </ul>
             </div>
-            <button class='userNamebutton'>Mr .Muhmmad Daniyal</button>
+        <div class="user-profile">
+          Mr.<br /><strong>MUHAMMAD DANIYAL</strong> <span>▼</span>
+        </div>
         </div>
     </nav>
 <div class="conatiner">

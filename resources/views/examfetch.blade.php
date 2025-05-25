@@ -11,213 +11,205 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Sofadi+One&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
 </head>
-<style>
-      *
-    {
-        margin:0;
-        padding: 0;
-        box-sizing: border-box;
-    }
-    body
-    {
-        background-color: #f0f3f6;
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
     }
 
-    .navbaritem
-    {
-        background-color:white;
-        justify-content: center;
-        display: flex;
-        height: 100px;
-        align-items: center;
-    }
-    .navbaritem ul 
-    {
-        left:100px;
-        position: relative;
-
-    }
-    .navbaritem ul li
-     {
-        display: inline-block;
-        margin:10px;
-    }
-    .navbaritem ul li a
-    {
-        list-style: none;
-        text-decoration: none;
-        color:black;
-    }
-        
     body {
-            font-family: sans-serif;
-            margin: 0;
-        }
-        #aptechgdnlogo
-        {
-            height: 100px;
-            width: 300px;
-            position: absolute;
-        }
-        .attendancetableHeading
-        {
-            justify-content: center;
-            align-items: center;
-            display: flex;            
-        }
-        #usrNameBtn
-        {
-            display: none;
-
-        }
-       
-        #usrLogout
-        {
-            display: none;
-        }
-       .SemesterOneHeading
-       {
-        display:flex;
-        justify-content: center;
-        height: 15vh;
-        align-items: center;
-       }
-       #semester1heading
-       {
-        font-family: "Source Sans 3", serif;
-        font-size:40px;
-        font-weight: 500;
-        font-style: normal;
-
-        }
-        .welcomeback
-        {
-            margin-left:12px;
-            margin-top:24px;
-        }
-        .welcomeheading
-        {
-            font-family: "Source Sans 3", serif;
-        /* font-size:40px; */
-        font-size:20px;
-        line-height: 20px;
-        color: #212529;
-        left: 12px;
-        font-weight: 500;
-        font-style: normal;
-
-        }
-        .welcomeTime
-        {
-            color: #272727;
-        line-height: 20px;
-        font-family: "Source Sans 3", serif;
-        font-size:14px;
-        font-weight: 500;
-        font-style: normal;
-
-        }
-        .semseteroneModuleID
-        {
-            padding-left:15px;
-            padding-top: 8px;
-            height: 33px;
-            width: 76.1094px;
-            border: 1px solid #BACBE6;
-            background-color: #cfe2ff;
-        }
-        .semseteronePoint
-        {
-            padding-left:15px;
-            padding-top: 8px;
-            height: 33px;
-            width: 182px;
-            border: 1px solid #BACBE6;
-            background-color: #cfe2ff;
-        }
-        .semseteroneModuleMarks
-        {    
-            padding-left:15px;
-            padding-top: 8px;
-            border: 1px solid #BACBE6;
-            height: 33px;
-            width: 57px;
-            background-color: #cfe2ff;
-        }
-    .examMarksBox
-    {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    .semseterone150ExtraPoint
-    {
-            border: 1px solid #BACBE6;
-            height: 33px;
-            width: 182px;
-            padding-left:15px;
-            padding-top: 8px;
-            background-color: #cfe2ff;
-    }
-    .semseteroneModuleID2
-        {
-            padding-left:15px;
-            padding-top: 8px;
-            height: 33px;
-            width: 76.1094px;
-            border: 1px solid #BACBE6;
-            background-color: #cfe2ff;
-        }
-        .semseteronePoint2
-        {
-            padding-left:15px;
-            padding-top: 8px;
-            height: 33px;
-            width: 213px;
-            border: 1px solid #BACBE6;
-            background-color: #cfe2ff;
-        }
-        .semseteroneModuleMarks2
-        {    
-            padding-left:15px;
-            padding-top: 8px;
-            border: 1px solid #BACBE6;
-            height: 33px;
-            width: 67.125px;
-            background-color: #cfe2ff;
-        }
-    .examMarksBox2
-    {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    .semseterone150ExtraPoint2
-    {
-            border: 1px solid #BACBE6;
-            height: 33px;
-            width: 213px;
-            padding-left:15px;
-            padding-top: 8px;
-            background-color: #cfe2ff;
-    }
-    #footer
-    {
-        height: 50px;
+      background-color: #f0f3f6;
     }
 
-    .userNamebutton
-     {
-        color:blue;
-        background-color:#ccc;
-        height:40px;
-        left:95em;
-        bottom:72px;
-        border-radius: 10px;
-        position: relative;
-        width: 180px;
-     }
-</style>
+    body {
+      font-family: sans-serif;
+      margin: 0;
+    }
+
+    #aptechgdnlogo {
+      margin-right: 20px;
+      height: 100px;
+      width: 300px;
+    }
+
+    .attendancetableHeading {
+      justify-content: center;
+      align-items: center;
+      display: flex;
+    }
+
+    #usrNameBtn {
+      display: none;
+    }
+
+    #usrLogout {
+      display: none;
+    }
+
+    .SemesterOneHeading {
+      display: flex;
+      justify-content: center;
+      height: 15vh;
+      align-items: center;
+    }
+
+    #semester1heading {
+      font-family: "Source Sans 3", serif;
+      font-size: 40px;
+      font-weight: 500;
+      font-style: normal;
+    }
+
+    body {
+      font-family: "Source Sans 3", serif;
+    }
+
+    .welcomeback {
+      margin-left: 12px;
+      margin-top: 24px;
+    }
+
+    .welcomeheading {
+      font-family: "Source Sans 3", serif;
+      /* font-size:40px; */
+      font-size: 20px;
+      line-height: 20px;
+      color: #212529;
+      left: 12px;
+      font-weight: 500;
+      font-style: normal;
+    }
+
+    .welcomeTime {
+      color: #272727;
+      line-height: 20px;
+      font-family: "Source Sans 3", serif;
+      font-size: 14px;
+      font-weight: 500;
+      font-style: normal;
+    }
+
+    .semseteroneModuleID {
+      padding-left: 15px;
+      padding-top: 8px;
+      height: 33px;
+      width: 76.1094px;
+      border: 1px solid #bacbe6;
+      background-color: #cfe2ff;
+    }
+
+    .semseteronePoint {
+      padding-left: 15px;
+      padding-top: 8px;
+      height: 33px;
+      width: 182px;
+      border: 1px solid #bacbe6;
+      background-color: #cfe2ff;
+    }
+
+    .semseteroneModuleMarks {
+      padding-left: 15px;
+      padding-top: 8px;
+      border: 1px solid #bacbe6;
+      height: 33px;
+      width: 57px;
+      background-color: #cfe2ff;
+    }
+
+    .examMarksBox {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .semseterone150ExtraPoint {
+      border: 1px solid #bacbe6;
+      height: 33px;
+      width: 182px;
+      padding-left: 15px;
+      padding-top: 8px;
+      background-color: #cfe2ff;
+    }
+
+    .semseteroneModuleID2 {
+      padding-left: 15px;
+      padding-top: 8px;
+      height: 33px;
+      width: 76.1094px;
+      border: 1px solid #bacbe6;
+      background-color: #cfe2ff;
+    }
+
+    .semseteronePoint2 {
+      padding-left: 15px;
+      padding-top: 8px;
+      height: 33px;
+      width: 213px;
+      border: 1px solid #bacbe6;
+      background-color: #cfe2ff;
+    }
+
+    .semseteroneModuleMarks2 {
+      padding-left: 15px;
+      padding-top: 8px;
+      border: 1px solid #bacbe6;
+      height: 33px;
+      width: 67.125px;
+      background-color: #cfe2ff;
+    }
+
+    .examMarksBox2 {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .semseterone150ExtraPoint2 {
+      border: 1px solid #bacbe6;
+      height: 33px;
+      width: 213px;
+      padding-left: 15px;
+      padding-top: 8px;
+      background-color: #cfe2ff;
+    }
+
+    .navbar {
+      display: flex;
+      align-items: center;
+      background-color: white;
+      height: 100px;
+      padding: 0 20px;
+    }
+
+    .navbaritem {
+      display: flex;
+      align-items: center;
+      margin-left: 40px;
+    }
+
+    .navbaritem ul {
+      display: flex;
+      gap: 20px;
+      list-style: none;
+    }
+
+    .navbaritem ul li a {
+      text-decoration: none;
+      color: black;
+      font-weight: 500;
+    }
+
+    .user-profile {
+      margin-left: auto;
+      background: #e6f0ff;
+      padding: 10px;
+      font-size: 14px;
+      text-align: center;
+      border-radius: 5px;
+    }
+  </style>
+
 <body>
 <nav>
         <div class="navbar">
@@ -235,7 +227,9 @@
                     <li><a href="">Feedback</a></li>
                 </ul>
             </div>
-            <button class='userNamebutton'>Mr .Muhmmad Daniyal</button>
+            <div class="user-profile">
+          Mr.<br /><strong>MUHAMMAD DANIYAL</strong> <span>▼</span>
+        </div>
         </div>
     </nav>
     <div class="welcomeback">
