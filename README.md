@@ -41,8 +41,22 @@ DB_PASSWORD=
 # Generate application key
 php artisan key:generate
 
-# Run migrations and seed database
+ Database Setup
+You can either run migrations and seeders or import the provided backup:
+
+Option A: Run Migrations and Seeders
+
 php artisan migrate --seed
+
+Option B: Import from Backup
+A backup of the project database is available.
+
+📁 Location: appdata/student_portal_backup.sql
+
+To restore it:
+
+mysql -u root -p student_portal < appdata/student_portal_backup.sql
+
 
 # Start local development servers
 php artisan serve
