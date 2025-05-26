@@ -248,11 +248,11 @@
                     <li><a href="{{route('exam.page')}}">Exam</a></li>
                     <li><a href="{{route('attendence.page')}}">Attendance</a></li>
                     <li><a href="{{route('annoument.page')}}">Annoument</a></li>
-                    <li><a href="">Feedback</a></li>
+                <li><a href="{{route('feedbackform')}}">Feedback</a></li>
                 </ul>
             </div>
 <div class="user-profile">
-                Mr.<br /><strong>MUHAMMAD DANIYAL</strong> <span>▼</span>
+                Mr.<br /><strong>{{ session('userName') }}</strong> <span>▼</span>
             </div>
         </div>
     </nav>
@@ -265,7 +265,7 @@
             <p style="color:black;"><strong style="color:#1E53E0;">Student Id:</strong> Student1497658</p>
             <p style="color:black;"><strong style="color:#1E53E0;">Classes Held:</strong> 14</p>
             <p style="color:black;"><strong style="color:#1E53E0;">Classes Attended:</strong> 14</p>
-            <p style="color:black;"><strong style="color:#1E53E0;">Month:</strong> Sep'2024</p>
+            <p style="color:black;"><strong style="color:#1E53E0;">Month:</strong> April'2024</p>
         </a>
     </div>
         <div class="card">
@@ -280,7 +280,7 @@
             <a id="ExamAnchortag" href="{{route('exam.page')}}">
             <img src="{{asset('loginAssets/assets/img/exam.png')}}"  height="100px" width="100px" alt="Exam Icon">
             <h2 style= color:#1E53E0>Exam Schedule</h2>
-            <p style="color:black;"><strong style="color: #1E53E0;">Semester:</strong>3</p>
+            <p style="color:black;"><strong style="color: #1E53E0;">Semester:</strong>4</p>
             <p style="color:black;"><strong style="color:#1E53E0;">Student Id:</strong> Student1497658</p>
             <!-- <p style="color:black;"><strong style="color:#1E53E0;">Exam Date:</strong> 2024-10-05</p> -->
             <p style="color:black;"><strong style="color:#1E53E0;">Batch Name:</strong> 2307A</p>

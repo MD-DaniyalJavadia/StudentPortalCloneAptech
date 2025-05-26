@@ -39,6 +39,8 @@ class pageController extends Controller
         $StudentLogin = StudentLogin::where('userEmail',$email)->where('userPassword',$pass)->first();
         if($StudentLogin)
         {
+            session(['userName' => $StudentLogin->userName]);
+
             return view('dashboard');
         }
         else

@@ -229,7 +229,7 @@
                     <li><a href="{{route('exam.page')}}">Exam</a></li>
                     <li><a href="{{route('attendence.page')}}">Attendance</a></li>
                     <li><a href="{{route('annoument.page')}}">Annoument</a></li>
-                    <li><a href="">Feedback</a></li>
+                    <li><a href="{{route('feedbackform')}}">Feedback</a></li>
                 </ul>
             </div>
                  <div class="user-profile">
