@@ -19,6 +19,21 @@
             background-color: #f7b205;
             color:white;
         }
+
+        .alert-info {
+    color: #0c5460;
+    background-color: #d1ecf1;
+    border-color: #bee5eb;
+    padding: 10px;
+    border: 1px solid;
+    border-radius: 4px;
+    margin-top: 15px;
+    margin-left:50px;
+    width: 296px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
 </style>
     
 <body>
@@ -44,10 +59,16 @@
                 <input type="password" name="user_password" id="yourPasswordinput">
                 <p  id="yourpasswordine">Password</p>
             </div>
+            
             <div class="loginbtn">
                 <button id="loginBtn">Login</button>
                 <p id="fPasswordResponsive" style="color:#f7b205;"><a href="{{route('forget.page')}}">Forget Password</a></p>
             </div>
+            @if(session('error'))
+    <div class="alert-info">
+        {{ session('error') }}
+    </div>
+@endif
             <div class="forgetPassword">
                 <p id="fPassword" style="color:#f7b205;"><a  style="color:#f7b205; list-style: none; text-decoration: none;" id="loginAnchor" href="{{route('forget.page')}}">Forget Password</a></p>
 
@@ -64,5 +85,13 @@
             </div>
         </div>
     </div>
+        <script>
+    setTimeout(() => {
+        const alertBox = document.querySelector('.alert-info');
+        if (alertBox) {
+            alertBox.style.display = 'none';
+        }
+    }, 4000); 
+    </script>
 </body>
 </html>

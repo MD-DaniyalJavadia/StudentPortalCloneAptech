@@ -43,7 +43,7 @@ class pageController extends Controller
         }
         else
         {
-            return redirect()->back();
+            return redirect()->back()->with('error', 'Record Not Found');
         }
     }
     public function registercomplainsFun()
